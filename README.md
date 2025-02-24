@@ -18,6 +18,25 @@ This assignment requires you to write a C# program that calculates the sum of th
 5.  **Commit and Push:** Commit your changes and push them back to your GitHub repository.
 6.  **Submission:** Your code will be automatically submitted through GitHub Classroom.
 
+Test Cases
+Input: 3142
+Expected Output: 100 (3^3 + 1^3 + 4^3 + 2^3 = 27 + 1 + 64 + 8 = 100)
+
+Input: 2001
+Expected Output: 9 (2^3 + 0^3 + 0^3 + 1^3 = 8 + 0 + 0 + 1 = 9)
+
+Input: 5231
+Expected Output: 161 (5^3 + 2^3 + 3^3 + 1^3 = 125 + 8 + 27 + 1 = 161)
+
+Input: 9999
+Expected Output: 2916 (9^3 + 9^3 + 9^3 + 9^3 = 729 + 729 + 729 + 729 = 2916)
+
+Input: 4321
+Expected Output: 100 (4^3 + 3^3 + 2^3 + 1^3 = 64 + 27 + 8 + 1 = 100)
+
+Input: 2500
+Expected Output: 133 (2^3 + 5^3 + 0^3 + 0^3 = 8 + 125 + 0 + 0 = 133)
+
 ## Starter Code (DigitPowerSum.cs)
 
 ```csharp
@@ -45,3 +64,5 @@ public class DigitPowerSum
         }
     }
 }
+
+
