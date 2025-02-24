@@ -19,6 +19,7 @@ This assignment requires you to write a C# program that calculates the sum of th
 6.  **Submission:** Your code will be automatically submitted through GitHub Classroom.
 
 Test Cases
+
 Input: 3142
 Expected Output: 100 (3^3 + 1^3 + 4^3 + 2^3 = 27 + 1 + 64 + 8 = 100)
 
